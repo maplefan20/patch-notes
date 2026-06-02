@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>공지사항</title>
+
+<style>
+body{
+    background:#111827;
+    color:white;
+    font-family:sans-serif;
+    text-align:center;
+    padding-top:100px;
+}
+
+.box{
+    max-width:700px;
+    margin:auto;
+    background:#1f2937;
+    border-radius:15px;
+    padding:40px;
+}
+
+h1{
+    color:#ff5555;
+    font-size:50px;
+}
+
+p{
+    font-size:24px;
+}
+</style>
+
+<script>
+setTimeout(function(){
+    document.getElementById("notice").style.display="none";
+    document.getElementById("prank").style.display="block";
+},3000);
+</script>
+
+</head>
+
+<body>
+
+<div id="notice" class="box">
+<h2>공지사항을 불러오는 중...</h2>
+<p>잠시만 기다려 주세요.</p>
+</div>
+
+<div id="prank" class="box" style="display:none;">
+<h1>🎣 낚였습니다 🎣</h1>
+<p>메랜 공지인 줄 알았지?</p>
+<p>ㅋㅋㅋㅋㅋㅋㅋㅋ</p>
+</div>
+
+</body>
+</html>
